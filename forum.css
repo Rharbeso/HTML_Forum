@@ -1,0 +1,30 @@
+.FN, .LN, .submit {
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.FN, .LN{
+    background-color: rgba(71, 144, 226, 0.384);
+}
+
+.FN:focus,
+.LN:focus{
+    border: rgba(40, 131, 235, 0.897);
+}
+
+[required]:focus{
+    background-color: crimson;
+}
+
+.titles{
+    font-weight: bold;
+}
+
+.req{
+    color: red;
+    font-size: 12px;
+    position: relative;
+    top: -3px;
+}
+
