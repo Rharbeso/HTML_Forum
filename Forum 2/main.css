@@ -33,10 +33,6 @@
     color: rgb(220, 20, 203);
 }
 
-.submit{
-    background-color: black; 
-}
-
 ::placeholder{
     color: black;
 }
